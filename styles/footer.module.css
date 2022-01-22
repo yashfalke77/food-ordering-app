@@ -1,0 +1,189 @@
+.footer {
+    background: black;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .footer .content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+  }
+  .footer .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .content .top .logoDetails {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  .content .top .media-icons {
+    display: flex;
+  }
+  .content .top .media-icons a {
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .footer .content {
+    border-bottom: 1px solid white;
+  }
+  .footer .content .linkBoxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .content .linkBoxes .box {
+    width: calc(100% / 5 - 10px);
+  }
+  .content .linkBoxes .box .link_name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .linkBoxes .box .link_name::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+  }
+  .content .linkBoxes .box li {
+    margin: 6px 0;
+    list-style: none;
+  }
+  .content .linkBoxes .box li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+  }
+  .content .linkBoxes .box li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .content .linkBoxes .inputBox {
+    margin-right: 55px;
+  }
+  .linkBoxes .inputBox input {
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #afafb6;
+    background: black;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+  }
+  .linkBoxes .inputBox input::placeholder {
+    color: #afafb6;
+    font-size: 16px;
+  }
+  .linkBoxes .inputBox input[type="button"] {
+    background: #fff;
+    color: #140b5c;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .inputBox input[type="button"]:hover {
+    opacity: 1;
+  }
+  .footer .bottom-details {
+    width: 100%;
+    background: black;
+  }
+  .footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .bottom-details .bottom_text a {
+    margin-right: 10px;
+  }
+  @media (max-width: 900px) {
+    .footer .content .linkBoxes {
+      flex-wrap: wrap;
+    }
+    .footer .content .linkBoxes .inputBox {
+      width: 40%;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 700px) {
+    .footer {
+      position: relative;
+    }
+    .content .top .logoDetails {
+      font-size: 26px;
+    }
+    .content .top .media-icons a {
+      height: 35px;
+      width: 35px;
+      font-size: 14px;
+      line-height: 35px;
+    }
+    .footer .content .linkBoxes .box {
+      width: calc(100% / 3 - 10px);
+    }
+    .footer .content .linkBoxes .inputBox {
+      width: 60%;
+    }
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 520px) {
+    .footer::before {
+      top: 145px;
+    }
+    .footer .content .top {
+      flex-direction: column;
+    }
+    .content .top .media-icons {
+      margin-top: 16px;
+    }
+    .footer .content .linkBoxes .box {
+      width: calc(100% / 2 - 10px);
+    }
+    .footer .content .linkBoxes .inputBox {
+      width: 100%;
+    }
+  }

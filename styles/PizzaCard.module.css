@@ -1,0 +1,28 @@
+.container {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 10px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 0.2px solid rgb(196, 192, 192);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-bg-color);
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.desc {
+  text-align: center;
+}

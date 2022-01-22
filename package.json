@@ -1,0 +1,31 @@
+{
+  "name": "food-ordering-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.8",
+    "@paypal/react-paypal-js": "^7.5.1",
+    "@reduxjs/toolkit": "^1.7.1",
+    "axios": "^0.24.0",
+    "cookie": "^0.4.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.6",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
+  }
+}

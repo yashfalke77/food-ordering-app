@@ -1,0 +1,26 @@
+.input {
+  width: 125px;
+  margin-right: 1.5rem;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extraItems {
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.extraItem {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid var(--main-bg-color);
+  background-color: white;
+  color: var(--main-bg-color);
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

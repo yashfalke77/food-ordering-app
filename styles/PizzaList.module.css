@@ -1,0 +1,27 @@
+.container{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+.desc{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
