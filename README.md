@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <p align="center">
-    <b>Food-Ordering-App</b>
+    <b style="font-size: 2rem">Food-Ordering-App</b>
     <br />
     <!-- <a href="https://github.com/yashfalke77">View Demo</a> -->
     <!-- · -->
