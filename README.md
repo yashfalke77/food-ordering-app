@@ -3,8 +3,7 @@
 <br />
 <div align="center">
   <p align="center">
-    INotebook - Your Notebook on the cloud
-    <br />
+    <b>Food-Ordering-App</b>
     <br />
     <!-- <a href="https://github.com/yashfalke77">View Demo</a> -->
     <!-- · -->
@@ -58,7 +57,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [Nextjs](https://nextjs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [MUI](https://mui.com/)
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -123,12 +121,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Yash Falke - [@yashfalke77](https://www.instagram.com/yashfalke77/) - yashfalke77@gmail.com
 
-Project Link: [iNotebook](https://github.com/yashfalke77/food-ordering-app/)
+Project Link: [Food-Ordering-App](https://github.com/yashfalke77/food-ordering-app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
