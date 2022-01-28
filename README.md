@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <p align="center">
-    <b style="font-size: 2rem">Food-Ordering-App</b>
+    <b>Food-Ordering-App</b>
     <br />
     <!-- <a href="https://github.com/yashfalke77">View Demo</a> -->
     <!-- · -->
@@ -23,28 +23,25 @@ SEO Optimized pizza restaurant food ordering app using React, Next.js, MongoDB ,
 
 Home Page
 <img src="./project images/home.png" alt="Logo" >
+<img src="./project images/home1.png" alt="Logo" >
 
-All Notes
-<img src="./project images/all notes.png" alt="Logo" >
+Particular Pizza
+<img src="./project images/particular pizza.png" alt="Logo" >
 
-New Note
-<img src="./project images/new Note.png" alt="Logo" >
+Add to Cart
+<img src="./project images/Add to cart.png" alt="Logo" >
+<img src="./project images/personal details.png" alt="Logo" >
 
-edit Note
-<img src="./project images/edit Note.png" alt="Logo" >
+order
+<img src="./project images/order .png" alt="Logo" >
 
-Login Page
-<img src="./project images/login.png" alt="Logo">
+admin
+<img src="./project images/admin0.png" alt="Logo">
+<img src="./project images/admin.png" alt="Logo">
+<img src="./project images/admin1.png" alt="Logo">
 
-Register Page
-<img src="./project images/register.png" alt="Logo">
-
-About Page
-<img src="./project images/about.png" alt="Logo">
-<img src="./project images/about1.png" alt="Logo">
-
-404 Page
-<img src="./project images/404 page.png" alt="Logo">
+footer
+<img src="./project images/footer.png" alt="Logo">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
