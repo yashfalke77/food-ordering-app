@@ -32,7 +32,7 @@ export default function Home({ pizzaList, admin }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Dineout - The best Pizza restaurant </title>
+        <title style={{fontWeight: 700}}>Dineout - The best Pizza restaurant </title>
         <meta name="description" content="Find best pizza restaurants in India offering discounts on food & drinks, check out menu, reviews and also book a table through dineout for free." />
       </Head>
       <Featured />

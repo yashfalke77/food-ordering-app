@@ -1,13 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("../fonts/Gilroy-Bold/style.css");
+@import url("../fonts/Gilroy-Semibold/style.css");
+@import url("../fonts/Gilroy-Medium/style.css");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-a{
+h1,
+h2 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+}
+
+a {
   text-decoration: none;
   color: white;
 }

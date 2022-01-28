@@ -14,9 +14,10 @@ function MyApp({ Component, pageProps }) {
   const theme = createTheme({
     typography: {
       fontFamily: [
-        "Poppins",
+        "Gilroy",
         "sans-serif",
       ].join(','),
+      fontWeight: 500,
     },
     palette: {
       bg_color: createColor('#ac0101'),
