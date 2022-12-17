@@ -9,10 +9,10 @@ const carts = createSlice({
     },
     reducers: {
         productAddedToCart: (state, action) => {
-            state.orderQuantity +=1
+            state.orderQuantity += 1
             state.products.push(action.payload)
             state.total += action.payload.price * action.payload.quantity
-        }, 
+        },
         cartReseted: (state, action) => {
             state.products = []
             state.total = 0
@@ -21,7 +21,7 @@ const carts = createSlice({
     }
 })
 
-export const {productAddedToCart, cartReseted} = carts.actions
+export const { productAddedToCart, cartReseted } = carts.actions
 
 
 export default carts.reducer
